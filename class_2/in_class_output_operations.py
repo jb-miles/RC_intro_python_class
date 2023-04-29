@@ -1,9 +1,13 @@
 X = 3
 Y = 7
 X += 2
+pi = 3.14156
+r = 15
+cir = (pi * r) ** 2
 code = "hello"
 code += " world"
 month = "February"
+print(dir())
 int_list = [1, 2, 3, 4, 5]
 veggie_list = ["celery", "carrot", "lettuce", "onion"]
 int_list.append(X)
