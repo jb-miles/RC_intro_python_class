@@ -10,4 +10,4 @@ def intro(name, hobby):
 
 user = input("What is your name? ")
 activity = input("What do you like to do for fun? ")
-intro_plus(user, activity)
+intro(user, activity)

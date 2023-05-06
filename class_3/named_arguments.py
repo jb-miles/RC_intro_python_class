@@ -1,5 +1,5 @@
 # print that a city has a river
-def river_city(city="Las Vegas", has_river=False):
+def river_city(city, has_river, /):
     if has_river is True:
         print(f"{city} has a river.")
     else:

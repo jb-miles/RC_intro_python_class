@@ -1,6 +1,6 @@
 x = 1
 while x < 10:
-    print(x)
+    print(x, end=" ")
     x = x + 1
 else:
-    print("The while loop is finished on x = " + str(x))
+    print("\nThe while loop is finished on x=" + str(x))

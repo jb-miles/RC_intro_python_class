@@ -10,4 +10,4 @@ def river_city(city="Los Angeles", has_river=True, coastal=True):
         print(f"{city} does not have a river and is not on the coast.")
 
 
-river_city("Portland, OR", True, True)
+river_city("Portland, OR", has_river=True, coastal=True)
