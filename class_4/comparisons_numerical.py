@@ -13,3 +13,5 @@
 False < 2
 True < 2
 True > 2
+
+print(__name__)
