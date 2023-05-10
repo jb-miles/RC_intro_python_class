@@ -10,25 +10,14 @@ Arguments:
 """
 
 
-# a function to return the number of words in a sentence
-def words_in_sentence(sentence):
-    words = sentence.split()
-    return len(words)
-
-
-# a function to return the number of letters in each word of a sentence
-def letters_in_words(sentence):
-    words = sentence.split()
-    letter_count = [len(word) for word in words]
-    return letter_count
-
-
 # a function for running this module as a script
 def counting_script(choice, user_sentence):
+    from .utils.functions import words_in_sentence, letters_in_words
     if "w" in choice:
         print(words_in_sentence(user_sentence))
     if "l" in choice:
         print(letters_in_words(user_sentence))
+
 
 
 if __name__ == "__main__":
